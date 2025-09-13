@@ -8,11 +8,11 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("B2C_RENEWALS")>
+<Assembly: AssemblyTitle("CMP_CB1_MAGENTA")>
 <Assembly: AssemblyDescription("")>
 <Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("B2C_RENEWALS")>
-<Assembly: AssemblyCopyright("Copyright ©  2024")>
+<Assembly: AssemblyProduct("CMP_CB1_MAGENTA")>
+<Assembly: AssemblyCopyright("Copyright ©  2025")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>

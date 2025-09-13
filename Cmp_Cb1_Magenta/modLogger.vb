@@ -25,7 +25,7 @@ Module modLogger
             End If
 
             initWriter = My.Computer.FileSystem.OpenTextFileWriter(fullPath, True)
-            initWriter.WriteLine("B2C_RENEWALS Documents Import Flow Application")
+            initWriter.WriteLine("CMP_CB1_MAGENTA Documents Import Flow Application")
             initWriter.WriteLine("Start of execution at: " & System.DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss"))
             initWriter.WriteLine("-------------------------------------------------------------------")
 
@@ -77,7 +77,7 @@ Module modLogger
     End Function
 
     Public Function generateLogFileName() As String
-        Return "B2C_RENEWALS_DOCUMENTS_IMPORT_FLOW__" & modAppConfigSettings.ThreadId & "___" & getDate() & ".log"
+        Return "CMP_CB1_MAGENTA_DOCUMENTS_IMPORT_FLOW__" & modAppConfigSettings.ThreadId & "___" & getDate() & ".log"
     End Function
 
 
@@ -149,7 +149,7 @@ Module modLogger
             End If
 
             NotExistsWriter = My.Computer.FileSystem.OpenTextFileWriter(fullPath, True)
-            NotExistsWriter.WriteLine("B2C_RENEWALS Documents Import Flow NOT EXISTS Log file")
+            NotExistsWriter.WriteLine("CMP_CB1_MAGENTA Documents Import Flow NOT EXISTS Log file")
             NotExistsWriter.WriteLine("Created at: " & System.DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss"))
             NotExistsWriter.WriteLine("--------------------------------------------------------------")
             NotExistsWriter.WriteLine("Entries in this log are of files that dont exist at the ")
@@ -200,7 +200,7 @@ Module modLogger
     End Function
 
     Public Function generateNotExistsLogName() As String
-        Return "B2C_RENEWALS_DOCUMENTS_IMPORT_FLOW__" & modAppConfigSettings.ThreadId & "___NOT_EXISTS_" & getDate() & ".log"
+        Return "CMP_CB1_MAGENTA_DOCUMENTS_IMPORT_FLOW__" & modAppConfigSettings.ThreadId & "___NOT_EXISTS_" & getDate() & ".log"
     End Function
 
 
@@ -213,7 +213,7 @@ Module modLogger
     End Function
 
     Public Function generateInsufficientDataLogName() As String
-        Return "B2C_RENEWALS_DOCUMENTS_IMPORT_FLOW__" & modAppConfigSettings.ThreadId & "___INSUFFICIENT_DATA_" & getDate() & ".log"
+        Return "CMP_CB1_MAGENTA_DOCUMENTS_IMPORT_FLOW__" & modAppConfigSettings.ThreadId & "___INSUFFICIENT_DATA_" & getDate() & ".log"
     End Function
 
 
@@ -233,7 +233,7 @@ Module modLogger
             End If
 
             InsufficientDataWriter = My.Computer.FileSystem.OpenTextFileWriter(fullPath, True)
-            InsufficientDataWriter.WriteLine("B2C_RENEWALS Documents Import Flow INSUFFICIENT DATA Log file")
+            InsufficientDataWriter.WriteLine("CMP_CB1_MAGENTA Documents Import Flow INSUFFICIENT DATA Log file")
             InsufficientDataWriter.WriteLine("Created at: " & System.DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss"))
             InsufficientDataWriter.WriteLine("-----------------------------------------------------------------------------")
             InsufficientDataWriter.WriteLine("The entries in this log are missing mandatory data for archival in Filenet")

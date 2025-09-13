@@ -11,7 +11,7 @@ Module modMain
     Sub Main()
 
         ' dimitris vetsis giant
-        Console.Title = "B2C_RENEWALS DOCUMENT IMPORT FLOW"
+        Console.Title = "CMP_CB1_MAGENTA DOCUMENT IMPORT FLOW"
         Dim p() As Process
         Dim CommandArgs() As String = Environment.GetCommandLineArgs
 

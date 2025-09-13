@@ -1,7 +1,6 @@
-# B2B_Renewals
+# CMP_CB1_MAGENTA
 
-OTEREV.CMP_B2B_RENEWALS
-New cmp import b2V
+OTEREV.CMP_CB1_MAGENTA
 
 1. Digital_Order_Id - Μοναδικό αναγνωριστικό παραγγελίας ή αιτήματος
 2. Document_file_info_id - Μοναδικό αναγνωριστικό του CMP
@@ -19,4 +18,4 @@ New cmp import b2V
 14. Import_Status - Always 0 όταν γίνεται insert στον πίνακα. Ενημερώνεται σε 1 (σε δεύτερο χρόνο από την FileNet) εάν το import είναι επιτυχές.
 15. F_Docnumber - Always null όταν γίνεται insert στον πίνακα. Ενημερώνεται σε δεύτερο χρόνο από την FileNet.
 
-Το path που θα μεταφέρονται τα αρχεία θα είναι \\10.101.6.9\vol_edocs3_prod\B2B_RENEWALS
+Το path που θα μεταφέρονται τα αρχεία θα είναι \\10.101.6.9\vol_edocs3_prod\CB1_MAGENTA
